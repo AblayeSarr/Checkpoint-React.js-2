@@ -1,0 +1,36 @@
+FUNCTION dot_product(v1, v2) : INTEGER
+VAR
+    ps: INTEGER;
+BEGIN
+    ps:= 0; 
+    FOR i FROM 0 TO v1.length() - 1 dot_product 
+     ps:= ps + v1[i] * v2[i];
+    END_FOR
+    RETURN ps ;
+END
+
+ALGORITHM dot_product// nom de l'algorithme
+VAR // déclaration de la variable
+    n: INTEGER; 
+BEGIN // début de l'algorithme
+    n:= 0
+    FOR i FROM 0 TO v1.length() -1 D0
+    write"number"
+    READ(n)
+    READ(v1[i]) * (v2[i])
+    IF dot_product(v1,v2)== 0
+    END_IF
+    END_FOR
+END // fin de l'algorithme
+
+ALGORITHM  dot_product (i-1 : INTEGER;) 
+VAR 
+    i: INTEGER;
+BEGIN 
+    n := tab.length;
+    FOR i FROM 0 TO n- 1 DO
+       IF (tab[i] > tab[i+1]) THEN
+        tab:=(tab[i], tab[i+1])
+       END_IF
+    END_FOR
+END 
